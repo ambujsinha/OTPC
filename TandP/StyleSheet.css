@@ -1,0 +1,9 @@
+﻿body {
+}
+#d1{
+    align-content:center;
+    align-self:stretch;
+    background-image:url('/pic/training.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    }

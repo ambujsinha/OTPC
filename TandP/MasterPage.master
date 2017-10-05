@@ -1,0 +1,186 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 491px;
+        }
+        .auto-style2 {
+            height: 246px;
+        }
+        .auto-style3 {
+            width: 824px;
+            height: 484px;
+        }
+        .auto-style4 {
+            height: 246px;
+        }
+        .auto-style5 {
+            height: 484px;
+            width: 212px;
+        }
+        .auto-style7 {
+            font-size: large;
+        }
+        .auto-style8 {
+            text-decoration: underline;
+            color: #000099;
+            font-size: large;
+        }
+                
+        .auto-style10 {
+            height: 238px;
+        }
+        .auto-style11 {
+            height: 437px;
+        }
+                
+        .auto-style12 {
+            text-decoration: underline;
+            color: #000099;
+            font-size:large;
+        }
+                
+        .auto-style13 {
+            height: 20px;
+        }
+                
+        .auto-style14 {
+            height: 915px;
+        }
+        .auto-style15 {
+            height: 175px;
+        }
+        .auto-style16 {
+            height: 123px;
+        }
+                
+        .auto-style17 {
+            height: 293px;
+        }
+                
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="auto-style14">
+        
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style2" colspan="3">
+                    <div id="d1" class="auto-style10">
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style8">
+                        </span><span class="auto-style12"><strong id="s1">WELCOME TO TRAINING AND PLACEMENT CELL</strong></span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+                    <div class="auto-style11">
+
+                        <br />
+                        <br />
+                        <br />
+
+                        <asp:Menu ID="Menu1" runat="server" OnMenuItemClick="Menu1_MenuItemClick">
+                            <DynamicItemTemplate>
+                                <%# Eval("Text") %>
+                            </DynamicItemTemplate>
+                            <Items>
+                                <asp:MenuItem Text="HOME" Value="HOME" NavigateUrl="~/Home.aspx" ToolTip="Go To Home Page"></asp:MenuItem>
+                                <asp:MenuItem Text="NOTICES" Value="NOTICES" NavigateUrl="~/Notice.aspx" ToolTip="notice page"></asp:MenuItem>
+                                <asp:MenuItem Text="POST JOB" Value="POST JOB" ToolTip="Sucess News" NavigateUrl="~/addjob.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="CONTACT US" Value="CONTACT US" NavigateUrl="~/Contact.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="FEEDBACK" Value="FEEDBACK" NavigateUrl="~/Feedback.aspx"></asp:MenuItem>
+                            </Items>
+                            <StaticHoverStyle BackColor="#0033CC" ForeColor="White" />
+                            <StaticMenuItemStyle BackColor="#00CCFF" BorderColor="#0000CC" BorderStyle="Double" BorderWidth="3px" Font-Bold="True" Font-Overline="False" Font-Underline="False" ForeColor="White" VerticalPadding="15px" />
+                            <StaticSelectedStyle BackColor="#000099" ForeColor="White" />
+                        </asp:Menu>
+
+                        <br />
+
+                        <br />
+                        &nbsp;&nbsp;
+                        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    </div>
+                </td>
+                <td class="auto-style3">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                        <div>
+                            <br />
+
+                        </div>
+    </asp:ContentPlaceHolder>
+                </td>
+                <td class="auto-style4">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        <div class="auto-style17">
+
+                        </div>
+                    </asp:ContentPlaceHolder>
+                    &nbsp;</td>
+            </tr>
+        </table>
+        
+        <asp:Panel ID="Panel1" runat="server" Height="184px">
+            <div id="d2" class="auto-style15">
+                <strong><span class="auto-style7">&nbsp;</span></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style12">
+                <marquee behavior="alternate" bgcolor="orange" class="auto-style13" direction="right" scrollamount="5"><strong>SOME OF OUR RECRUITERS</strong></marquee></span><br /> 
+                <br />
+                <marquee behavior="alternate" direction=left onmouseover="this.stop()" onmouseout="this.start()" class="auto-style16">
+                <asp:Image ID="Image1" runat="server" Height="58px" ImageUrl="~/pic/facebook.jpg" Width="123px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image2" runat="server" Height="59px" ImageUrl="~/pic/google.jpg" Width="130px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image3" runat="server" Height="71px" ImageUrl="~/pic/hp.jpg" Width="87px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image4" runat="server" Height="60px" ImageUrl="~/pic/ibm.jpg" Width="100px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image6" runat="server" Height="58px" ImageUrl="~/pic/itc.jpg" Width="100px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image7" runat="server" Height="55px" ImageUrl="~/pic/mic.jpg" Width="100px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image8" runat="server" Height="46px" ImageUrl="~/pic/Nikon.jpg" Width="100px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image9" runat="server" Height="48px" ImageUrl="~/pic/Sony.jpg" Width="121px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image10" runat="server" Height="57px" ImageUrl="~/pic/SUN.jpg" Width="164px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image11" runat="server" Height="49px" ImageUrl="~/pic/Twitter.jpg" Width="152px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image12" runat="server" Height="80px" ImageUrl="~/pic/wipro.jpg" Width="110px" />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</marquee>
+                </div>
+        </asp:Panel>
+        
+    </div>
+        <p style="text-align:center"> © Copyright 2016-2017 |&nbsp;Training And Placement Department All Rights Reserved<br />
+               Website Designed &amp; Developed By - TechNitz</p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Image ID="Image1" runat="server" Height="222px" ImageUrl="~/Pic/training.jpg" Width="1000px" />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+         </td>
+                <td class="auto-style3">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+                        <div>
+                            <br />
+
+                        </div>
+    </asp:ContentPlaceHolder>
+                </td>
+                <td class="auto-style4">
+                    &nbsp;</td>
+            </tr>
+        </table>
+        
+        <asp:Panel ID="Panel1" runat="server" Height="184px">
+            <div id="d2" class="auto-style15">
+                <strong><span class="auto-style7">&nbsp;</span></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style12">
+                <marquee behavior="alternate" bgcolor="orange" class="auto-style13" direction="right" scrollamount="5"><strong>SOME OF OUR RECRUITERS</strong></marquee></span><br /> 
+                <br />
+                <marquee behavior="alternate" direction=left onmouseover="this.stop()" onmouseout="this.start()" class="auto-style16">
+                <asp:Image ID="Image2" runat="server" Height="58px" ImageUrl="~/pic/facebook.jpg" Width="123px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image3" runat="server" Height="59px" ImageUrl="~/pic/google.jpg" Width="130px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image4" runat="server" Height="71px" ImageUrl="~/pic/hp.jpg" Width="87px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image5" runat="server" Height="60px" ImageUrl="~/pic/ibm.jpg" Width="100px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image6" runat="server" Height="58px" ImageUrl="~/pic/itc.jpg" Width="100px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image7" runat="server" Height="55px" ImageUrl="~/pic/mic.jpg" Width="100px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image8" runat="server" Height="46px" ImageUrl="~/pic/Nikon.jpg" Width="100px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image9" runat="server" Height="48px" ImageUrl="~/pic/Sony.jpg" Width="121px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image10" runat="server" Height="57px" ImageUrl="~/pic/SUN.jpg" Width="164px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image11" runat="server" Height="49px" ImageUrl="~/pic/Twitter.jpg" Width="152px" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Image ID="Image12" runat="server" Height="80px" ImageUrl="~/pic/wipro.jpg" Width="110px" />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</marquee>
+                </div>
+        </asp:Panel>
+        
+    </div>
+        <p style="text-align:center"> © Copyright 2016-2017 |&nbsp;Training And Placement Department All Rights Reserved<br />
+               Website Designed &amp; Developed By - TechNitz</p>
+    </form>
+</body>
+</html>
+    </form>
+</body>
+</html>
